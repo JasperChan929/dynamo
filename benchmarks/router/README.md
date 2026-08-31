@@ -42,6 +42,7 @@ This will start both etcd and NATS with the required configurations in the backg
 - **`prefix_ratio_benchmark.py`** - Main benchmarking script that sweeps prefix ratios
 - **`real_data_benchmark.py`** - Benchmarking script that uses real mooncake-style trace data
 - **`agent_benchmark.py`** - Concurrency-based benchmarking for multi-turn conversation traces
+- **`agent_tree.py`** - Controlled sibling fan-out placement and duplicate-prefill diagnostics; see [the agent-tree guide](agent_tree.md)
 
 ## Usage Instructions
 
